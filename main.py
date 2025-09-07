@@ -10,7 +10,7 @@ WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 def kaitsevaekalk():
     total_days = 334
-    sbk_days = 56
+    sbk_days = 55
     end_date = datetime(2026, 6, 14)
     start_date = end_date - timedelta(days=total_days)
 
@@ -75,3 +75,4 @@ if __name__ == "__main__":
     time.sleep(wait_seconds)  # oota kuni suvaline kellaaeg
     msg = kaitsevaekalk()
     send_to_discord(msg)
+
