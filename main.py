@@ -1,16 +1,16 @@
-import discord
-import asyncio
+import requests
 import random
 import re
+import time
 import os
 from datetime import datetime, timedelta
 
-TOKEN = os.getenv("DISCORD_TOKEN")  # Railway Variables menüüs pead selle lisama
-CHANNEL_ID = 123456789012345678     # <-- pane siia oma Discordi kanali ID (integer!)
+# Webhook URL tuleb Railway environment variables alt (WEBHOOK_URL)
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 def kaitsevaekalk():
     total_days = 334
-    sbk_days = 55
+    sbk_days = 56
     end_date = datetime(2026, 6, 14)
     start_date = end_date - timedelta(days=total_days)
 
@@ -33,11 +33,9 @@ def kaitsevaekalk():
     sbk_percent = round(sbk_percent, 3)
     kaitsevaegi_percent = round(kaitsevaegi_percent, 3)
 
-    # --- Fun fact solvangud failist ---
+    # --- Fun fact solvang failist ---
     with open("solvangud.txt", "r", encoding="utf-8") as f:
         solvangud = [line.strip() for line in f if line.strip()]
-
-    # eemalda alguse numbrid + punkt (nt "13. ")
     puhastatud = [re.sub(r"^\d+\.\s*", "", s) for s in solvangud]
     solvang = random.choice(puhastatud)
 
@@ -52,34 +50,28 @@ käes on {days_passed} päev
 Fun fact: {solvang}
 """
 
-# ---- Discord Bot ----
-intents = discord.Intents.default()
-client = discord.Client(intents=intents)
+def send_to_discord(msg):
+    data = {"content": msg}
+    response = requests.post(WEBHOOK_URL, json=data)
+    if response.status_code == 204:
+        print("[INFO] Sõnum saadetud edukalt.")
+    else:
+        print(f"[ERROR] Discord vastas {response.status_code}: {response.text}")
 
-async def send_daily_message():
-    await client.wait_until_ready()
-    channel = client.get_channel(CHANNEL_ID)
+if __name__ == "__main__":
+    # vali random kellaaeg vahemikus 08:00–22:00
+    now = datetime.now()
+    random_hour = random.randint(8, 22)
+    random_minute = random.randint(0, 59)
+    target_time = datetime(now.year, now.month, now.day, random_hour, random_minute)
 
-    while not client.is_closed():
-        now = datetime.now()
-        random_hour = random.randint(8, 22)   # ainult 08:00–22:00 vahel
-        random_minute = random.randint(0, 59)
-        target_time = datetime(now.year, now.month, now.day, random_hour, random_minute)
-        if target_time <= now:
-            target_time += timedelta(days=1)
+    if target_time <= now:
+        target_time += timedelta(days=1)
 
-        wait_seconds = (target_time - now).total_seconds()
-        await asyncio.sleep(wait_seconds)
+    wait_seconds = (target_time - now).total_seconds()
+    print(f"[INFO] Valitud kellaaeg: {target_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"[INFO] Ootan {wait_seconds/3600:.2f} tundi...")
 
-        msg = kaitsevaekalk()
-        await channel.send(msg)
-
-        # oota järgmise päevani
-        await asyncio.sleep(24 * 3600)
-
-@client.event
-async def on_ready():
-    print(f"Bot logis sisse: {client.user}")
-
-client.loop.create_task(send_daily_message())
-client.run(TOKEN)
+    time.sleep(wait_seconds)  # oota kuni suvaline kellaaeg
+    msg = kaitsevaekalk()
+    send_to_discord(msg)
