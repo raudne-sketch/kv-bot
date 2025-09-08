@@ -5,7 +5,7 @@ import time
 import os
 from datetime import datetime, timedelta
 
-# Webhook URL tuleb Railway environment variables alt (WEBHOOK_URL)
+
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 def kaitsevaekalk():
@@ -40,11 +40,12 @@ def kaitsevaekalk():
     solvang = random.choice(puhastatud)
 
     return f"""
-käes on {days_passed} päev
+Kell on päev nr {days_passed} 
+s.t
 **
 > Läbitud on {days_passed} päeva, {hours_passed} tundi ja {minutes_passed} minutit
-> > SBK on ~{sbk_percent}%
-> > Kaitsevägi on ~{kaitsevaegi_percent}%
+> > SBK on ~{sbk_percent}% läbi
+> > Kaitsevägi on ~{kaitsevaegi_percent}% läbi
 **
 
 Fun fact: {solvang}
@@ -59,9 +60,9 @@ def send_to_discord(msg):
         print(f"[ERROR] Discord vastas {response.status_code}: {response.text}")
 
 if __name__ == "__main__":
-    # vali random kellaaeg vahemikus 08:00–22:00
+    
     now = datetime.now()
-    random_hour = random.randint(8, 22)
+    random_hour = random.randint(4, 20)
     random_minute = random.randint(0, 59)
     target_time = datetime(now.year, now.month, now.day, random_hour, random_minute)
 
@@ -72,7 +73,8 @@ if __name__ == "__main__":
     print(f"[INFO] Valitud kellaaeg: {target_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"[INFO] Ootan {wait_seconds/3600:.2f} tundi...")
 
-    time.sleep(wait_seconds)  # oota kuni suvaline kellaaeg
+    time.sleep(wait_seconds)
     msg = kaitsevaekalk()
     send_to_discord(msg)
+
 
