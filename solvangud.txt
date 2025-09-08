@@ -3,11 +3,11 @@
 
 599. Sa kõnnid nagu passiivne homo.
 
-598. Peeter Oja vastus Õhtulehe ajakirjanikule: Kirjutage nii, et Peeter Oja saatis v***u!
+598. Peeter Oja vastus Õhtulehe ajakirjanikule: Kirjutage nii, et Peeter Oja saatis v###u!
 
 597. Hea, et me lahku läksime. Ma ei pea enam su lolli möla kuulama.
 
-596. Su m**n on nagu Eesti majandus.
+596. Su m##n on nagu Eesti majandus.
 
 595. Ma kuulsin, et värvid küüned roosaks, sest siis on piisavalt gay-tunne kui pihku lööd.
 
@@ -25,7 +25,7 @@
 
 587. Sul pole viga, mida üks trepist kukkumine parandada ei suudaks.
 
-586. Saa aru – m**n on sul pe****s ja mina otsustan, kas ja millal see välja tuleb!
+586. Saa aru – m##n on sul pe####s ja mina otsustan, kas ja millal see välja tuleb!
 
 584. Su tüdruk on nii paks, et läheb selg ees toast välja.
 
@@ -53,7 +53,7 @@
 
 565. Suured rinnad ei loe kui sa oled paks.
 
-564. Su ego on kõrgel nagu kaelkirjaku v**t.
+564. Su ego on kõrgel nagu kaelkirjaku v##t.
 
 563. Sa kannad kodus naiste riideid.
 
@@ -73,7 +73,7 @@
 
 544. Sa oled isata kasvav idukene.
 
-543. Sa oled õige maias täna. Tule siia! *tõmbab püksiluku lahti*
+543. Sa oled õige maias täna. Tule siia! #tõmbab püksiluku lahti#
 
 542. Sa oled ebard! – Mis mõttes? – Selles mõttes, nagu mõni on ebard ja mõni ei ole.
 
@@ -87,7 +87,7 @@
 
 537. Ütleme nii, et jalgrattas ei ole ainuke vändaga asi mille selga ta istub… ja ta ei ole džoki.
 
-536. Kui teised lugesid Tammsaaret, lugesid sina endal p***ekarvu.
+536. Kui teised lugesid Tammsaaret, lugesid sina endal p###ekarvu.
 
 535. Sa oled nagu sügelus, mida ei saa sügada.
 
@@ -131,7 +131,7 @@
 
 509. Ainuke moodus kuidas sa naisi saad on parem-klikk ja Save image as.
 
-507. Kui sulle pähe s**utakse ja sa ütled, et see ei ole s**t, siis sa ei ole mitte optimist vaid idioot.
+507. Kui sulle pähe s##utakse ja sa ütled, et see ei ole s##t, siis sa ei ole mitte optimist vaid idioot.
 
 505. Sind oleks tulnud eostamisel hoopis alla neelata.
 
@@ -189,7 +189,7 @@
 
 469. Miks sa oma emalt taskuraha ei küsi?! Magate ju ühes toas!
 
-468. Ole vait, p**s!
+468. Ole vait, p##s!
 
 467. Ära solvu kui ma sulle jõuludeks seebi kingin.
 
@@ -225,11 +225,11 @@
 
 448. Kunagi kui sa lõpuks midagi asjalikku ütled, pole enam kedagi kes sind kuulaks.
 
-447. Mu p***elohk on ka sügavam kui su elu mõte.
+447. Mu p###elohk on ka sügavam kui su elu mõte.
 
 446. Temast ma ei arva küll mitte kui midagi.
 
-445. Ma räägin sellest pikemalt, kui see s**aviiul ka vait jääb!
+445. Ma räägin sellest pikemalt, kui see s##aviiul ka vait jääb!
 
 439. Sa räägid nagu sa oleksid keegi.
 
@@ -269,17 +269,17 @@
 
 414. Sa oled sama vajalik nagu leviauk mu telefonile.
 
-413. Teeme bändi, sina mängid m**ni!
+413. Teeme bändi, sina mängid m##ni!
 
-412. Ma ei mäleta su nime, aga tohib ma kutsun sind s**apeaks?
+412. Ma ei mäleta su nime, aga tohib ma kutsun sind s##apeaks?
 
-411. Alla keskmise s**aprits.
+411. Alla keskmise s##aprits.
 
 410. Su silmad on nagu taevatähed. Üks on kõrgemal kui teine.
 
 409. Mängi endaga kuskil mujal!
 
-408. Ma ei vihja su näole, aga p***e käib püksis.
+408. Ma ei vihja su näole, aga p###e käib püksis.
 
 407. Sa oled nii mõttetu mees, et jää peal ka ei libise!
 
@@ -320,11 +320,11 @@ mängida.
 
 382. Sa olid eelmises elus vist katkine õhupall.
 
-380. Ma ei ole küll proktoloog, aga ma arvan, et sa ajad jälle s**ta.
+380. Ma ei ole küll proktoloog, aga ma arvan, et sa ajad jälle s##ta.
 
-379. Sa oled ka selline totakas, kel’ koguaeg nägu naerul ja p***e peerul.
+379. Sa oled ka selline totakas, kel’ koguaeg nägu naerul ja p###e peerul.
 
-378. Mine peldikusse, kui sa selline s**ahäda oled!
+378. Mine peldikusse, kui sa selline s##ahäda oled!
 
 377. Mida sa naisega teed?! Sa ei suuda ennastki rahuldada!
 
@@ -336,7 +336,7 @@ mängida.
 
 373. Tahad kohvi voodisse? Maga köögis!
 
-372. Pane kondoom pähe. Kui sa käitud nagu m**n, võiksid riietuda ka vastavalt.
+372. Pane kondoom pähe. Kui sa käitud nagu m##n, võiksid riietuda ka vastavalt.
 
 371. Sa oled vormis. Ümmargune on ka vorm.
 
@@ -354,21 +354,21 @@ mängida.
 
 364. Ta on peast nii nüri, et pudeli avamiseks kutsub Tehnoabi.
 
-363. Ma ei ole küll uroloog, aga m**ni tunnen ma kaugelt ära.
+363. Ma ei ole küll uroloog, aga m##ni tunnen ma kaugelt ära.
 
 362. Sina ja mulle lõuga? Kas nagu enne või peale seda, kui sa ennast täis kused?
 
-361. Kaua ülbitsed, saad mult jalaga v**tu!
+361. Kaua ülbitsed, saad mult jalaga v##tu!
 
-360. Kui sa tahad, et sinust kasu oleks, siis võid oma paksu p***ega osooniaugu kinni toppida.
+360. Kui sa tahad, et sinust kasu oleks, siis võid oma paksu p###ega osooniaugu kinni toppida.
 
-359. Kao ära ja võta oma hemorroidis p***e kaasa.
+359. Kao ära ja võta oma hemorroidis p###e kaasa.
 
-358. Kena auto, mitu kilomeetrit m**ni sa selle jaoks imenud oled?
+358. Kena auto, mitu kilomeetrit m##ni sa selle jaoks imenud oled?
 
-357. Oled värske nagu hommikune m**n päikesepaistel.
+357. Oled värske nagu hommikune m##n päikesepaistel.
 
-356. Pähklitükil mu s**as on ka kõrgem IQ kui sinu ajul.
+356. Pähklitükil mu s##as on ka kõrgem IQ kui sinu ajul.
 
 355. Tead, mille peal sa võtad 3 sekundiga nullist sajani? Kaalu.
 
@@ -386,7 +386,7 @@ mängida.
 
 346. Kui mul oleks Tourette sündroom, siis sina põhjustaksid mul hoogusid.
 
-345. Sa oled ka selline, kes mõtleb, et maailma keerleb ümber sinu t**a!
+345. Sa oled ka selline, kes mõtleb, et maailma keerleb ümber sinu t##a!
 
 343. Sinult abi paluda on sama hea mõte kui Parkinsoni-haige uroloogi juurde minna.
 
@@ -426,13 +426,13 @@ mängida.
 
 318. Sul ei ole teravam mõistus kui keskmisel laotöölisel.
 
-317. Su ema ahter on nii suur, et tal on krae peal s**aplekid.
+317. Su ema ahter on nii suur, et tal on krae peal s##aplekid.
 
 316. Sind kuulates jääb mulje, et sul ratas küll pöörleb, aga hamster selle sees on surnud.
 
-315. Ma olen, jah, viimasel ajal natuke jobu olnud, aga ma üritan ennast parandada …niipea kui ma olen oma riista su ema p***est välja võtnud!
+315. Ma olen, jah, viimasel ajal natuke jobu olnud, aga ma üritan ennast parandada …niipea kui ma olen oma riista su ema p###est välja võtnud!
 
-314. Ta ei oska naistega üldse suhelda, hakkab kohe m**ni suhu ajama.
+314. Ta ei oska naistega üldse suhelda, hakkab kohe m##ni suhu ajama.
 
 313. Miks sa nii vihane oled? Homodest pojad ei tee lapselapsi?
 
@@ -440,7 +440,7 @@ mängida.
 
 309. Kui sa rannikul peeretad, siis tekivad hiidlained.
 
-306. Sa oled sama naljakas nagu telki s**tumine.
+306. Sa oled sama naljakas nagu telki s##tumine.
 
 304. Kui sa ennast kunagi betoonsussidest leiad, siis tea, et ma hakkan muresid uputama.
 
@@ -466,7 +466,7 @@ mängida.
 
 284. Ma ei hinda sind kõrgemalt kui pidurdusjälgi wc-potis.
 
-283. Lähen su eksistentsist mööda nagu s**tuvast koerast.
+283. Lähen su eksistentsist mööda nagu s##tuvast koerast.
 
 282. Ma vaatan, et su vanemad ei olnud eriti osavad selles lapsetegemise asjas.
 
@@ -474,7 +474,7 @@ mängida.
 
 280. Vänt su suus näeks hea välja!
 
-279. Mul kuivab s**t p***es ära kui ma sind näen!
+279. Mul kuivab s##t p###es ära kui ma sind näen!
 
 278. Temasuguste pärast ongi meil piimapakkide peal sildid “Ava siit”.
 
@@ -482,13 +482,13 @@ mängida.
 
 274. Joosep? Joosepudelpõhjani ja mine koju!
 
-273. Tead, mis erinevus on sinu ja ämbritäie s**a vahel? Ämber.
+273. Tead, mis erinevus on sinu ja ämbritäie s##a vahel? Ämber.
 
 272. Sa oled hea näide sellest, mis juhtub, kui õigel ajal aborti ei tehta.
 
 271. Su emal mõni laps elusana ka sündis?
 
-269. Su suu näeb välja nagu sa oleksid maailmameister hobusele p****epuhumises.
+269. Su suu näeb välja nagu sa oleksid maailmameister hobusele p####epuhumises.
 
 268. Ta on nii jobu, et isegi ta kujutletav tüdruk andis talle korvi.
 
@@ -510,11 +510,11 @@ mängida.
 
 258. Su lapsepõlve peatrauma annab tunda.
 
-257. Miks alati peale sinuga rääkimist on mul s**amaik suus.
+257. Miks alati peale sinuga rääkimist on mul s##amaik suus.
 
 256. Iga suvaline maksavorst pole delikatess.
 
-255. Sa oled nagu kuivanud puuoks, sinuga kõlbab ainult talla alt koera s**ta sonkida.
+255. Sa oled nagu kuivanud puuoks, sinuga kõlbab ainult talla alt koera s##ta sonkida.
 
 252. Oleks su ema tookord odavam olnud, oleksin mina su isa.
 
@@ -544,7 +544,7 @@ mängida.
 
 238. Ma olen rohkem su ema tisse imenud kui sa ise!
 
-237. Sa oled nagu kevadine koeras**t, mis lume alt nähtavale ilmub.
+237. Sa oled nagu kevadine koeras##t, mis lume alt nähtavale ilmub.
 
 236. Kui sul on habe ajamata, näed välja nagu kube!
 
@@ -576,7 +576,7 @@ mängida.
 
 221. Mulle teeb nalja, et sa käid linnapeal oma nõrga mõistusega liputamas.
 
-220. Sinusugused puuksp***ed sünnivadki kirjavigadega.
+220. Sinusugused puuksp###ed sünnivadki kirjavigadega.
 
 219. Kes su ema oli veel elus kui isa teda viljastas?
 
@@ -666,7 +666,7 @@ mängida.
 
 174. Mine oma katseklaasi tagasi ja uju seal natuke ringi!
 
-173. Tahan tänada teid kogu oma p***epõhjast.
+173. Tahan tänada teid kogu oma p###epõhjast.
 
 172. Kas sa käid ilusalongis tagavaraväljapääsu kaudu?
 
@@ -732,7 +732,7 @@ mängida.
 
 141. Siin on ebardeid nii palju, et kõigile ei jätku tsirkusteski tööd.
 
-139. Sa näed erakordselt s**t välja. On see mingi uus trend?
+139. Sa näed erakordselt s##t välja. On see mingi uus trend?
 
 138. Ja milline seitsmest pöialpoisist sina oled?
 
@@ -792,7 +792,7 @@ mängida.
 
 109. Su jutt kõlab nagu eesti keel, aga ma ei saa mitte halligi aru.
 
-108. Ma mõistan, mida sa öelda tahad, aga täielik p**apeeter oled sa ikkagi.
+108. Ma mõistan, mida sa öelda tahad, aga täielik p##apeeter oled sa ikkagi.
 
 107. Sa meeldid mulle. Meenutad mind ennast, kui ma veel noor ja naiivne olin.
 
@@ -852,7 +852,7 @@ mängida.
 
 79. Sa oled nagu .com maailm: üles haibitud, sisutühi ja kindel pettumus.
 
-78. On see kitsehabe või on lind su lõua täis s**tunud?
+78. On see kitsehabe või on lind su lõua täis s##tunud?
 
 77. Kena soeng. Oli see kohe ostes selline?
 
@@ -986,7 +986,7 @@ mängida.
 
 12. Ära tunne ennast halvasti. Paljud inimesed on andetud.
 
-11. Sa oled elumees. Sa tead, kui p***es elu on.
+11. Sa oled elumees. Sa tead, kui p###es elu on.
 
 10. Ma ei tea, mis sind nii lolliks teeb, aga see kindlasti töötab.
 
@@ -1005,5 +1005,6 @@ mängida.
 3. Ma oleks su emale jõuludeks peaaegu pardli kinkinud!
 
 2. Ära kratsi ennast. Parem pese.
+
 
 1. Sa oled sama vajalik nagu allveelaevas õhuaken.
