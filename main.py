@@ -92,7 +92,8 @@ if __name__ == "__main__":
     print(f"[INFO] Valitud kellaaeg: {target_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"[INFO] Ootan {wait_seconds/3600:.2f} tundi...")
 
-#    time.sleep(wait_seconds)
+    time.sleep(wait_seconds)
     msg = kaitsevaekalk()
     send_to_discord(msg)
+
 
