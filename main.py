@@ -27,8 +27,8 @@ def kaitsevaekalk():
 
     sbk_percent = min(100.0, (elapsed.total_seconds() / (sbk_days * 86400)) * 100)
     kaitsevaegi_percent = (elapsed.total_seconds() / (total_days * 86400)) * 100
-    if kaitsevaegi_percent > 100:
-        kaitsevaegi_percent = 100.0
+    #if kaitsevaegi_percent > 100:
+     #   kaitsevaegi_percent = 100.0
 
     sbk_percent = round(sbk_percent, 3)
     kaitsevaegi_percent = round(kaitsevaegi_percent, 3)
@@ -47,11 +47,11 @@ def kaitsevaekalk():
         ajek_percent = (ajek_elapsed / (ajek_total_days * 86400)) * 100
 
     # Ümardamine
-    sbk_percent = round(sbk_percent, 3)
+    sbk_percent = round(sbk_percent, 7)
     kaitsevaegi_percent = round(kaitsevaegi_percent, 3)
     ajek_percent = round(ajek_percent, 3)
 
-    # --- Fun fact solvang failist ---
+    # --- Fun fact ---
     with open("solvangud.txt", "r", encoding="utf-8") as f:
         solvangud = [line.strip() for line in f if line.strip()]
     puhastatud = [re.sub(r"^\d+\.\s*", "", s) for s in solvangud]
@@ -69,7 +69,7 @@ s.t
 
 Fun fact: {solvang}
 """
-
+# --- discord ---
 def send_to_discord(msg):
     data = {"content": msg}
     response = requests.post(WEBHOOK_URL, json=data)
@@ -95,5 +95,6 @@ if __name__ == "__main__":
     time.sleep(wait_seconds)
     msg = kaitsevaekalk()
     send_to_discord(msg)
+
 
 
